@@ -4,7 +4,12 @@ importScripts("https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging-com
 
 // Configuración igual que en app.js
 firebase.initializeApp({
-  
+  apiKey: "AIzaSyBIwXyfVtegK6xiJq81aO3S7GjJyNYf3Po",
+  authDomain: "fir-3e617.firebaseapp.com",
+  projectId: "fir-3e617",
+  storageBucket: "fir-3e617.appspot.com",
+  messagingSenderId: "37080394932",
+  appId: "1:37080394932:web:449376822d7ba96428bbe1"
 });
 
 const messaging = firebase.messaging();
